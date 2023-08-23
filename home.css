@@ -1,0 +1,172 @@
+.navbar{
+    background-color:rgb(0, 183, 255);
+    height: 3.2cm;
+    margin-left: -0.2cm;
+    margin-top: -0.42cm;
+    width: 101%;
+}
+.navbar ul button{
+    background-color: navy;
+    border: 3px solid navy;
+    margin: 10px;
+    margin-left: 1cm;
+    height: 1.5cm;
+    width: 4.5cm;
+    border-radius: 10px 10px 0px 0px;
+    color: whitesmoke;
+    font-weight: 20px;
+    margin-top: -2cm;
+}
+.uniform{
+    height: 280px;
+    width: 250px;
+    margin-top: 3cm;
+}
+.uniform2{
+    height: 250px;
+    width: 280px;
+    margin-top: 0cm;
+    margin-left: -2cm;
+}
+.navbar ul button:hover{
+    background-color: rgb(255, 0, 51);
+    border: 3px solid rgb(255, 0, 51);
+    color: rgb(255, 255, 255);
+    margin-top: -2cm;
+
+    transition: 0.2s;
+
+}
+.sch-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.SCH-NAME{
+    margin-top: -4cm;
+    margin-left: 3.8cm;
+    font-family: "arial black";
+    color: rgb(255, 241, 112);
+}
+.marquee{
+    font-size: 20px;
+    font-family: "arial black";
+    color: rgb(0, 183, 255);
+}
+.logo2{
+    height: 400px;
+    width: 400px;
+    margin-left: 3cm;
+    margin-top: -24%;
+}
+.name{
+    font-size: 25px;
+    font-family: "arial black";
+    color: rgb(0, 183, 255);
+    margin-left: 7cm;
+}
+.sect-2{
+    background: linear-gradient(rgb(255, 241, 112),rgba(255, 241, 112, 0.096));
+    margin-left: -0.2cm;
+    width: 101%;
+    height: 22cm;
+}
+.footer{
+    background-color: white;
+}
+.GES{
+    height: 80px;
+    width: 200px;
+    margin-left: 15cm;
+    margin-top: 6cm;
+}
+.J{
+    margin-top: 4cm;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 15px;
+    border: 4px solid rgb(0, 183, 255);
+    background-color: rgb(0, 183, 255);
+    margin-left: 0.5cm;
+    margin-top: 20%;
+}
+.J1{
+    margin-top: 4cm;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 15px;
+    border: 4px solid rgb(0, 183, 255);
+    background-color: rgb(0, 183, 255);
+    margin-left: 21cm;
+}
+.J1:hover{
+    border: 4px solid rgb(255, 0, 51);
+    background-color:rgb(255, 0, 51);
+    color: whitesmoke;
+}
+.J:hover{
+    border: 4px solid rgb(255, 0, 51);
+    background-color:rgb(255, 0, 51);
+
+    color: whitesmoke;
+}
+.Motor{
+    margin-top: -26cm;
+    margin-left: 20cm;
+}
+.links{
+    margin-top: 8cm;
+}
+.links a{
+    margin: 50px;
+    margin-left: 5cm;
+    color: rgb(0, 183, 255);
+}
+.links a:hover{
+    color: rgb(255, 0, 51);
+    transition: 0s;
+}
+.social{
+    width: 40px;
+    height: 40px;
+    margin-top: 2cm;
+    border-radius: 10pc;
+    background-position: center;
+}
+.log{
+    height: 20px;
+    width: 20px;
+}
+.social:hover{
+    height: 45px;
+    width: 45px;
+}
+#facebook{
+    margin-top: -7.8cm;
+    margin-left: 33.2cm;
+
+}
+.anim{
+    opacity: 0.1;
+    transform: translateY(-100px);
+    animation: moveup 3.5s linear forwards;
+   }
+   @keyframes moveup{
+    100%{
+    opacity: 1;
+    transform: translateY(0px);
+   }
+   
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4.5s linear forwards;
+   }
+   @keyframes moveup{
+    100%{
+    opacity: 1;
+    transform: translateY(0px);
+   }
+}
