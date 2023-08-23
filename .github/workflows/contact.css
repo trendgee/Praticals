@@ -1,0 +1,112 @@
+.navbar{
+    background-color:rgb(0, 183, 255);
+    height: 3.2cm;
+    margin-left: -0.2cm;
+    margin-top: -0.42cm;
+    width: 101%;
+}
+.navbar ul button{
+    background-color: navy;
+    border: 3px solid navy;
+    margin: 10px;
+    margin-left: 1cm;
+    height: 1.5cm;
+    width: 4.5cm;
+    border-radius: 10px 10px 0px 0px;
+    color: whitesmoke;
+    font-weight: 20px;
+    margin-top: -2cm;
+}
+.navbar ul button:hover{
+    background-color: rgb(255, 0, 51);
+    border: 3px solid rgb(255, 0, 51);
+    color: rgb(255, 255, 255);
+    margin-top: -3cm;
+    transition: 0.2s;
+
+}
+.loca{
+    margin-left: 32cm;
+}
+.loca img{
+    height: 25px;
+    width: 25px;
+}
+.loca img p{
+    text-align:right;
+    color: rgb(0, 183, 255);
+}
+.sch-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.SCH-NAME{
+    margin-top: -4cm;
+    margin-left: 3.8cm;
+    font-family: "arial black";
+    color: rgb(255, 241, 112);
+}
+.contact-bottun{
+    border: none;
+    border-radius: 15px;
+    background:linear-gradient(#96969600,rgb(0,183,255));
+    color: black;
+    font-family: "arial black";
+    margin-top: 2cm;
+    height: 8cm;
+    width: 10cm;
+    margin-left: 5cm;
+}
+.call{
+    height: 50px;
+    width: 50px;
+    margin-top: 0.3cm;
+}
+.contact-bottun1{
+    border: none;
+    border-radius: 15px;
+    background:linear-gradient(#96969600,rgb(0,183,255));
+    color: black;
+    font-family: "arial black";
+    margin-top: 2cm;
+    height: 8cm;
+    width: 12cm;
+    margin-left: 0.5cm;
+}
+.links{
+    margin-top: 4cm;
+}
+.links a{
+    margin: 50px;
+    margin-left: 5cm;
+    color: rgb(0, 183, 255);
+}
+.links a:hover{
+    color: rgb(255, 0, 51);
+    transition: 0s;
+}
+.GES{
+    height: 100px;
+    width: 300px;
+    margin-left: 12cm;
+}
+.contact{
+    text-align: center;
+    font-family: "arial black";
+    color: rgb(0, 183, 255);
+}
+.log{
+    height: 20px;
+    width: 20px;
+}
+.body{
+    background:linear-gradient(rgb(255, 242, 130),#96969600);
+    width: 99%;
+}
+.footer-lst{
+    background-color: white;
+
+    width: 101%;
+    margin-left: -0.2cm;
+}
